@@ -124,6 +124,29 @@ img::-moz-selection {
   background-color: transparent;
 }
 
+footer{
+    background-color: #333;
+    /*color: #CCC;*/
+	/*background-color: rgba(0,0,0,0.2);*/
+    color: rgba(255,255,255,0.25);
+	height:130px;
+	position:relative;
+}
+
+footer .container.my-auto{
+    height: 37px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+footer .container.my-auto i{
+	font-size:36px;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
@@ -205,6 +228,10 @@ header.masthead p {
   }
   header.masthead h1 {
     font-size: 3rem;
+  }
+  header.masthead.sub-header {
+	min-height: 215px;
+	max-height: 215px;
   }
 }
 
@@ -309,4 +336,9 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+
+.col-xs-4{
+	width:33.33333333%;
 }
