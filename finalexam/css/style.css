@@ -1,0 +1,19 @@
+#image1 {
+  border: 5px solid blue;
+  padding: 5px;
+  display: inline-block;
+}
+
+#image2 {
+  border: 5px solid blue;
+  padding: 5px;
+  display: inline-block;
+}
+
+#button1 {
+  display: inline-block;
+}
+
+#button2 {
+  display: inline-block;
+}
