@@ -1,14 +1,15 @@
 #image1 {
   border: 5px solid blue;
-  padding: 60px;
+  padding: 30px;
   display: inline-block;
 }
 
 #image2 {
   border: 5px solid blue;
-  padding: 60px;
+  padding: 30px;
   display: inline-block;
 }
+
 
 #button1 {
   display: inline-block;
